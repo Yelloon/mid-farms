@@ -94,7 +94,7 @@ function Core.RouteThread(Name)
                         Wait(100)
                     end
                 
-                    TaskPlayAnim(Ped, "amb@prop_human_bum_bin@idle_b", "idle_d", 8.0, -8.0, 15000, 1, 0, false, false, false)
+                    TaskPlayAnim(Ped, "amb@prop_human_bum_bin@idle_b", "idle_d", 8.0, -8.0, TimeWait, 1, 0, false, false, false)
                     FreezeEntityPosition(Ped, true) 
                 
                     Wait(TimeWait)
