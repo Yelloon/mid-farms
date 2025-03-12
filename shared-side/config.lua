@@ -1,6 +1,6 @@
 Distance = 5.0 
 
-TimeWait = 10000
+TimeWait = 15000
 
 Routes = {
     { 940.79, -1745.6, 31.15 },
